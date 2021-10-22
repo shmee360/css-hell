@@ -1,0 +1,195 @@
+@import url("https://use.typekit.net/fxb2ofz.css");
+
+body {
+	/* Polka v2 from https://www.magicpattern.design/tools/css-backgrounds */
+	background-color: bisque;
+	opacity: 0.8;
+	background-image: radial-gradient(#555 0.7000000000000001px, transparent
+	0.7000000000000001px), radial-gradient(#555 0.7000000000000001px, bisque
+	0.7000000000000001px);
+	background-size: 28px 28px;
+	background-position: 0 0,14px 14px;
+}
+
+/* disclaimers */
+.c1, .c2, .c3, .c4, .c5, .c12, .c13, .c14, .c15, .c16, .c18, .c19, .c2 ~
+blockquote {
+	font-family: droid-sans, helvetica, arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: auto;
+	width: 35%;
+	padding: 0.5em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border-left: 1em solid black;
+	border-right: 1em solid black;
+	color: #555;
+	background-color: #fff;
+}
+
+blockquote .c2 {
+	font-variant: small-caps;
+	border-right: 0;
+	border-left: 0.5em solid #555;
+	width: 45%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.c1, .c12 {
+	text-align: center;
+	margin-top: 2.5%;
+	font-weight: 700;
+	border-top: 1em solid black;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+}
+
+.c5, body > .c2:last-child {
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-left: 1em solid black;
+	border-bottom: 1em solid black;
+}
+
+/* transitionary text */
+.c5, .c12, .c14, .c15 {
+	text-align: center;
+	font-family: droid-sans-mono, monospace;
+	font-weight: 700;
+}
+
+/* titles */
+h1, h3, h2.no-break, h5 {
+	text-align: center;
+	font-family: baker-signet-web, serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+/* title */
+h1 { font-size: 8em; }
+
+/* subtitles */
+h3, h2.no-break { font-size: 4.5em; }
+
+/* images */
+img {
+	display: block;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	border: 0.75em solid;
+	border-image: linear-gradient(45deg, darkgrey, goldenrod) 1;
+}
+
+/* image captions */
+h5 {
+	font-size: 2em;
+	margin-bottom: 0.75em;
+}
+
+/* links */
+a:link { color: black; }
+a:hover { color: goldenrod; }
+
+/* paragraphs */
+h2 ~ p, p + blockquote, p + table, p.header, blockquote > div > ul {
+	text-align: left;
+	margin: auto;
+	width: 70%;
+	background-color: bisque;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+h2 ~ p { text-indent: 2em; }
+
+/* table of contents */
+h2 + table, hr + h2, .toc > h2:first-child, ol {
+	margin: auto;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+}
+
+/* table of contents header */
+hr + h2, .toc > h2:first-child {
+	text-align: left;
+	font-family: baker-signet-web, serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	font-size: 2.1em;
+	width: max-content;
+	border: 0.375em solid dimgrey;
+	margin-bottom: 0.5em;
+	border-radius: 0.375em;
+	padding: 0.25em;
+	background-color: bisque;
+}
+
+h2 ~ p, h2 + table, ol, .dedication, .verse, p + table {
+	font-family: droid-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+}
+
+h2 + table, ol {
+	width: 50%;
+	border: 0.5em solid dimgrey;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+
+ol { padding-left: 1.5em; }
+
+/* chapter header */
+.chapter > h2, div > h2:first-child {
+	text-align: center;
+	font-family: baker-signet-web, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.1em;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	width: max-content;
+	margin: auto;
+	background-color: bisque;
+}
+
+/* dedication and epigraph */
+.dedication, .verse, blockquote > div, p + table { font-size: 1.1em; }
+
+.dedication { text-align: center; }
+
+.epigraph {
+	width: max-content;
+	margin: auto;
+}
+
+cite, .valediction, .signature {
+	display: block;
+	text-align: right;
+}
+
+.i1 { padding-left: 2em; }
+
+.i2 { padding-left: 3em; }
+
+p + .verse, blockquote > div, p + table {
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+.signature { font-style: italic; }
+
+p.header {
+	font-weight: 700;
+}
