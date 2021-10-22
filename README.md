@@ -13,6 +13,11 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Changes to Project Gutenberg Files
+==================================
+- all style elements were removed and replaced with `style.css`
+- changed one div 'c' class in The Great Gatsby to match other books
+
 License/Copyright
 =================
 
