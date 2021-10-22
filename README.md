@@ -21,4 +21,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+This work is copyright Warren Stix (C) 2021 under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
