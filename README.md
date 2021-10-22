@@ -1,5 +1,6 @@
 Assignment: CSS Hell
 ====================
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 You will skin 3 project gutenberg stories with custom CSS.
 
@@ -28,4 +29,4 @@ This work is copyright Warren Stix (C) 2021 under a
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
